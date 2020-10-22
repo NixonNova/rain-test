@@ -1,0 +1,30 @@
+.r-swap-dialog-grid {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    place-items: center center;
+  }
+
+  .r-common-grid{
+    display: grid;
+    grid-row-gap: 5px;
+}
+.r-balance-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.r-balance{
+text-align: right;
+cursor: pointer;
+}
+
+.r-swap-button{
+    height: 3em;
+    cursor: pointer;
+}
+
+.r-swap-dialog-box{
+    border-radius: 25px;
+    padding: 25px;
+    border: 2px solid  gainsboro;
+}

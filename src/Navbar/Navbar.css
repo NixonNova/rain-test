@@ -1,0 +1,19 @@
+
+.r-list-inline {
+	list-style: none;
+	padding: 0;
+}
+
+.r-list-inline > li {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.r-sticky-navbar {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: gainsboro;
+	top: 0;
+	height: 25px;
+}
